@@ -1,0 +1,18 @@
+                                       List of databases
+        Name        |   Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+--------------------+-----------+----------+-------------+-------------+-----------------------
+ caselist           | caselist  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ cursor_development | rails_app | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ cursor_test        | rails_app | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ pmlab_db           | stas      | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres           | postgres  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ stas               | rails_app | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ stas_development   | stas_app  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ stas_test          | stas_app  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0          | postgres  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+                    |           |          |             |             | postgres=CTc/postgres
+ template1          | postgres  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+                    |           |          |             |             | postgres=CTc/postgres
+ torder             | torder    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+(11 rows)
+
