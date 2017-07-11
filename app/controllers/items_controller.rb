@@ -18,20 +18,18 @@ class ItemsController < ApplicationController
 
   def create
     @item = Item.create(item_params).save
-    redirect_to root_path
+
   end
 
   def update
     @item = Item.find(params[:id])
-    if @item.update(item_params)
-      redirect_to root_path
-    end
+    @item.update(item_params)
   end
 
   def destroy
     @item = Item.find(params[:id])
     @item.destroy
-    redirect_to root_path
+
   end
 
 private
