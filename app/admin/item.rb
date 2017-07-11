@@ -9,12 +9,13 @@ ActiveAdmin.register Item do
       f.input :description
       f.input :oldprice
       f.input :newprice
-      f.input :image, :required => false, :as => :file
+      f.input :image, :required => true, :as => :file
     end
     f.submit
   end
 
   index do
+    selectable_column
     column :name
     column :description
     column :oldprice
