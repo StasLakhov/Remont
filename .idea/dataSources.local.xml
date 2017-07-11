@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails Remont: production" uuid="c377583a-c501-4c25-8f60-6d12653778f0">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>remont</user-name>
+    </data-source>
+    <data-source name="Rails Remont: test" uuid="064b924d-864e-4cf3-8f8b-f495d0a2af18">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>remont</user-name>
+    </data-source>
+    <data-source name="Rails Remont: development" uuid="6826ab05-4645-411d-a04d-e25dbbf794bc">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>remont</user-name>
+    </data-source>
+  </component>
+</project>

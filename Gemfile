@@ -20,6 +20,10 @@ gem 'jquery-turbolinks'
 gem 'jquery-rails'
 gem 'paperclip', '~> 5.0.0'
 
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
+
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
