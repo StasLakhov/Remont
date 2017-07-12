@@ -24,7 +24,6 @@ ActiveAdmin.register Item do
     column :publish
 
     actions
-
   end
 
   show do |ad|
@@ -39,4 +38,23 @@ ActiveAdmin.register Item do
       row :publish
     end
   end
+
+  batch_action :publish do |selection|
+    Item.find(selection).each do |v|
+      v.publish = true
+      v.save
+    end
+    redirect_to '/admin/items'
+  end
+
+  batch_action :unpublish do |selection|
+    Item.find(selection).each do |v|
+      v.publish = false
+      v.save
+    end
+    redirect_to '/admin/items'
+  end
+
+
+
 end

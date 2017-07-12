@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
 
   def index
-    @items = Item.all.where(publish: true)
+    @items = Item.where(publish: true)
   end
 
   def show
