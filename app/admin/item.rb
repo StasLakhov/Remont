@@ -1,7 +1,7 @@
 ActiveAdmin.register Item do
 
 
-  permit_params :name, :description, :oldprice, :newprice, :image
+  permit_params :name, :description, :oldprice, :newprice, :image, :publish
 
   form do |f|
     f.inputs do
@@ -9,6 +9,7 @@ ActiveAdmin.register Item do
       f.input :description
       f.input :oldprice
       f.input :newprice
+      f.input :publish
       f.input :image, :required => true, :as => :file
     end
     f.submit
@@ -20,8 +21,10 @@ ActiveAdmin.register Item do
     column :description
     column :oldprice
     column :newprice
+    column :publish
 
     actions
+
   end
 
   show do |ad|
@@ -33,7 +36,7 @@ ActiveAdmin.register Item do
       row :image do
         image_tag(ad.image.url(:thumb))
       end
-      # Will display the image on show object page
+      row :publish
     end
   end
 end

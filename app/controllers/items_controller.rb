@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
 
   def index
-    @items = Item.all
+    @items = Item.all.where(publish: true)
   end
 
   def show
@@ -38,7 +38,8 @@ private
                                  :description,
                                  :oldprice,
                                  :newprice,
-                                 :image)
+                                 :image,
+                                 :publish)
   end
 
 
