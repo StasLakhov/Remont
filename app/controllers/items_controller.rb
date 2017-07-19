@@ -1,5 +1,7 @@
 class ItemsController < ApplicationController
 
+  skip_before_action :verify_authenticity_token
+
   def index
     @items = Item.where(publish: true)
   end
@@ -28,17 +30,26 @@ class ItemsController < ApplicationController
   def destroy
     @item = Item.find(params[:id])
     @item.destroy
-
   end
 
-private
+  def order
+    RmtMailer.item_order(params[:user_mail], params[:user_name], params[:user_phone]).deliver_now
+    redirect_to '/'
+  end
+
+
+
+  private
   def item_params
     params.require(:item).permit(:name,
                                  :description,
                                  :oldprice,
                                  :newprice,
                                  :image,
-                                 :publish)
+                                 :publish,
+                                 :user_mail,
+                                 :user_name,
+                                 :user_phone)
   end
 
 
