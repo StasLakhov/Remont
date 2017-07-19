@@ -22,4 +22,7 @@
 # Ignore Byebug command history file.
 .byebug_history
 
-.erhae
+
+/erhae
+/config/
+/db/
