@@ -33,7 +33,9 @@ class ItemsController < ApplicationController
   end
 
   def order
-    RmtMailer.item_order(params[:user_mail], params[:user_name], params[:user_phone]).deliver_now
+    RmtMailer.item_order(params[:user_mail],
+                         params[:user_name],
+                         params[:user_phone]).deliver_now
     redirect_to '/'
   end
 
