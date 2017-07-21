@@ -19,7 +19,7 @@
         <td><%= item.description %></td>
         <td><%= item.oldprice %></td>
         <td><%= item.newprice %></td>
-        <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-title="<%= item.name %>">Buy</button></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-id="<%= item.id %>" data-title="<%= item.name %>">Buy</button></td>
       </tr>
   <% end %>
 

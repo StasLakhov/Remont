@@ -33,9 +33,11 @@ class ItemsController < ApplicationController
   end
 
   def order
+    @item = Item.find(params[:itemId])
     RmtMailer.item_order(params[:user_mail],
                          params[:user_name],
-                         params[:user_phone]).deliver_now
+                         params[:user_phone],
+                         @item).deliver_now
     redirect_to '/'
   end
 
@@ -51,7 +53,8 @@ class ItemsController < ApplicationController
                                  :publish,
                                  :user_mail,
                                  :user_name,
-                                 :user_phone)
+                                 :user_phone,
+                                 :itemId)
   end
 
 

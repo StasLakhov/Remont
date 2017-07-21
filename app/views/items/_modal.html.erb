@@ -14,6 +14,9 @@
               var button = $(event.relatedTarget);  // Button that triggered the modal
               var titleData = button.data('title'); // Extract value from data-* attributes
               $(".modal-title").text(titleData);
+              var itemId=button.data('id');
+              var itemElement=$('#itemId');
+              itemElement.val(itemId);
           });
       });
   </script>
@@ -53,6 +56,9 @@
               <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
               <button type="submit" class="btn btn-primary">Buy</button>
             </div>
+
+            <input type="hidden" name="itemId" id="itemId">
+
           </form>
         </div>
 
