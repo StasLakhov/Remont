@@ -44683,3 +44683,1185 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-21 00:49:50 -0700
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."publish" = $1[0m  [["publish", "t"]]
+  Rendered items/_modal.html.erb (0.7ms)
+  Rendered items/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 208ms (Views: 206.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-07-21 00:49:50 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome-sprockets"):
+  
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-07-21 00:49:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin" for 127.0.0.1 at 2017-07-21 00:57:59 -0700
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-07-21 00:57:59 -0700
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/devise/shared/_links.erb (2.3ms)
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (225.5ms)
+Completed 200 OK in 904ms (Views: 724.2ms | ActiveRecord: 46.5ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-07-21 00:58:02 -0700
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xjhvzxG+4wAtRTgWeDil2h62sZGHlgtbSRWSO/QhiqT2krFf/bhIBc78z9ctp4zZeg5Xpo5DULKTyEiVX7AhXQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (77.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (14.8ms)[0m  [1m[33mUPDATE "admin_users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "admin_users"."id" = $5[0m  [["current_sign_in_at", "2017-07-21 07:58:03.145746"], ["last_sign_in_at", "2017-07-13 10:28:35.602670"], ["sign_in_count", 6], ["updated_at", "2017-07-21 07:58:03.146951"], ["id", 1]]
+  [1m[35m (30.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 474ms (ActiveRecord: 123.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-07-21 00:58:03 -0700
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/page/index.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/page/index.html.arb (96.1ms)
+Completed 200 OK in 117ms (Views: 107.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 00:58:05 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (22.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (335.3ms)
+Completed 200 OK in 400ms (Views: 332.3ms | ActiveRecord: 24.4ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-07-21 00:58:43 -0700
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (144.6ms)
+Completed 200 OK in 153ms (Views: 147.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-07-21 00:58:45 -0700
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/page/index.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/page/index.html.arb (79.8ms)
+Completed 200 OK in 86ms (Views: 81.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-07-21 01:10:25 -0700
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (137.6ms)
+Completed 200 OK in 147ms (Views: 140.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-07-21 01:10:28 -0700
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (1.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (122.1ms)
+Completed 200 OK in 140ms (Views: 127.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/admin/admin_users/new" for 127.0.0.1 at 2017-07-21 01:10:37 -0700
+Processing by Admin::AdminUsersController#new as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (116.5ms)
+Completed 200 OK in 137ms (Views: 131.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-07-21 01:10:38 -0700
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (132.5ms)
+Completed 200 OK in 146ms (Views: 138.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/admin/admin_users/new" for 127.0.0.1 at 2017-07-21 01:10:39 -0700
+Processing by Admin::AdminUsersController#new as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (91.6ms)
+Completed 200 OK in 99ms (Views: 95.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:10:57 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (160.7ms)
+Completed 200 OK in 175ms (Views: 165.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:11:13 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (3.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (166.6ms)
+Completed 200 OK in 182ms (Views: 169.0ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:11:22 -0700
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (130.3ms)
+Completed 200 OK in 137ms (Views: 133.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/admin/items" for 127.0.0.1 at 2017-07-21 01:11:51 -0700
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"++T4V77XSmA1muFNNEH6cqmBSt/DcwVNT8kLW+xTW7xQvrcX28L1o4GLneWy83WBoJW2YK+izUSQ+wUlIMgl1g==", "item"=>{"name"=>"wrbtgrw", "description"=>"ertgberbth", "oldprice"=>"erbthreb", "newprice"=>"erbterbterbt", "publish"=>"1", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f544ad8c390 @tempfile=#<Tempfile:/tmp/RackMultipart20170721-5723-1u1mjyy.png>, @original_filename="cart.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"cart.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Create Item"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Command :: file -b --mime '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-1izgjy0.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-4eg0y6.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-4eg0y6.png[0]'
+Command :: convert '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-4eg0y6.png[0]' -auto-orient -resize "300x300>" '/tmp/d86432ba03ee8dd6e02f5a0c4b4c29f320170721-5723-1mdhjlt'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-4eg0y6.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-4eg0y6.png[0]'
+Command :: convert '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-4eg0y6.png[0]' -auto-orient -resize "100x100>" '/tmp/d86432ba03ee8dd6e02f5a0c4b4c29f320170721-5723-10m5wn3'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/tmp/54013ba69c196820e56801f1ef5aad5420170721-5723-1b7he7v.png'
+  [1m[35mSQL (38.7ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "oldprice", "newprice", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "publish") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "wrbtgrw"], ["description", "ertgberbth"], ["oldprice", "erbthreb"], ["newprice", "erbterbterbt"], ["created_at", "2017-07-21 08:11:53.067683"], ["updated_at", "2017-07-21 08:11:53.067683"], ["image_file_name", "cart.png"], ["image_content_type", "image/png"], ["image_file_size", 25930], ["image_updated_at", "2017-07-21 08:11:51.997639"], ["publish", "t"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items/35
+Completed 302 Found in 1181ms (ActiveRecord: 40.8ms)
+
+
+Started GET "/admin/items/35" for 127.0.0.1 at 2017-07-21 01:11:53 -0700
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb (75.6ms)
+Completed 200 OK in 90ms (Views: 87.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-21 01:11:56 -0700
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."publish" = $1[0m  [["publish", "t"]]
+  Rendered items/_modal.html.erb (1.0ms)
+  Rendered items/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 190ms (Views: 180.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-07-21 01:11:56 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome-sprockets"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-07-21 01:11:56 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:12:01 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (133.6ms)
+Completed 200 OK in 142ms (Views: 135.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:12:03 -0700
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (128.2ms)
+Completed 200 OK in 136ms (Views: 131.7ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/admin/items" for 127.0.0.1 at 2017-07-21 01:12:09 -0700
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/24IUN5b4fZ1NR0mzoZ/uA54TVU9JnuQUbTGx5UvtAwp/dhJmzQRG3FqNwdiJYN6S0dijglUeeedN1l0s/Aug==", "item"=>{"name"=>"rebth", "description"=>"erbt", "oldprice"=>"wrtgerbh", "newprice"=>"rebtrebt", "publish"=>"0"}, "commit"=>"Create Item"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (18.3ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "oldprice", "newprice", "created_at", "updated_at", "publish") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "rebth"], ["description", "erbt"], ["oldprice", "wrtgerbh"], ["newprice", "rebtrebt"], ["created_at", "2017-07-21 08:12:09.880379"], ["updated_at", "2017-07-21 08:12:09.880379"], ["publish", "f"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items/36
+Completed 302 Found in 35ms (ActiveRecord: 19.8ms)
+
+
+Started GET "/admin/items/36" for 127.0.0.1 at 2017-07-21 01:12:09 -0700
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb (102.4ms)
+Completed 200 OK in 117ms (Views: 107.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/images/thumb/missing.png" for 127.0.0.1 at 2017-07-21 01:12:10 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb/missing.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:12:12 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (126.0ms)
+Completed 200 OK in 136ms (Views: 128.5ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/admin/items/batch_action" for 127.0.0.1 at 2017-07-21 01:12:33 -0700
+Processing by Admin::ItemsController#batch_action as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kjPntd4F4oto2sXUXUgblwnEb8hdguAToY2siiK5YO05aaj1uxBdSNzLuXzb+pRkANCTdzFTKBp+v6L07iIehw==", "batch_action"=>"publish", "collection_selection"=>["36"]}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "items" SET "publish" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["publish", "t"], ["updated_at", "2017-07-21 08:12:33.704086"], ["id", 36]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items
+Completed 302 Found in 13ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:12:33 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (153.1ms)
+Completed 200 OK in 161ms (Views: 155.3ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/admin/items/batch_action" for 127.0.0.1 at 2017-07-21 01:12:46 -0700
+Processing by Admin::ItemsController#batch_action as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pi2VK0HedLyJtTLmj4n1w6gkj2QTZ3EjnjEXmiusi4GVd9prJMvLfz2kTk4JO3owoTBz23+2uSpBAxnk5zf16w==", "batch_action"=>"unpublish", "collection_selection"=>["34"]}
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (1.8ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "items" SET "publish" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["publish", "f"], ["updated_at", "2017-07-21 08:12:46.988975"], ["id", 34]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items
+Completed 302 Found in 17ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:12:46 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.9ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (136.8ms)
+Completed 200 OK in 143ms (Views: 137.9ms | ActiveRecord: 2.3ms)
+
+
+Started DELETE "/admin/items/33" for 127.0.0.1 at 2017-07-21 01:12:54 -0700
+Processing by Admin::ItemsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ylfO0An7+NSeghxwCn5HvJwxEihjnb2UjH1KXGWmR0NhDYGQbO5HFyqTYNiMzMhPlSXulw9MdZ1TT0QiqT05KQ==", "id"=>"33"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = $1[0m  [["id", 33]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items
+Completed 302 Found in 20ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:12:54 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (127.6ms)
+Completed 200 OK in 134ms (Views: 129.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-21 01:12:57 -0700
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."publish" = $1[0m  [["publish", "t"]]
+  Rendered items/_modal.html.erb (0.5ms)
+  Rendered items/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 132ms (Views: 129.2ms | ActiveRecord: 0.8ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome-sprockets"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-07-21 01:12:57 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/assets/font-awesome"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-07-21 01:13:15 -0700
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/page/index.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/page/index.html.arb (83.6ms)
+Completed 200 OK in 91ms (Views: 86.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:15:35 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (127.1ms)
+Completed 200 OK in 135ms (Views: 129.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:15:37 -0700
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (118.4ms)
+Completed 200 OK in 126ms (Views: 121.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/admin/items" for 127.0.0.1 at 2017-07-21 01:15:39 -0700
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LdI55aLbjpBJUWOwI1unOa2Z1tLpgfKGt9haUZTPl6yGiHalx84xU/1AHxil6SjKpI0qbYVQOo9o6lQvWFTpxg==", "item"=>{"name"=>"", "description"=>"", "oldprice"=>"", "newprice"=>"rfstberth", "publish"=>"0"}, "commit"=>"Create Item"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "oldprice", "newprice", "created_at", "updated_at", "publish") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", ""], ["description", ""], ["oldprice", ""], ["newprice", "rfstberth"], ["created_at", "2017-07-21 08:15:39.610746"], ["updated_at", "2017-07-21 08:15:39.610746"], ["publish", "f"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items/37
+Completed 302 Found in 20ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/admin/items/37" for 127.0.0.1 at 2017-07-21 01:15:39 -0700
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb (90.7ms)
+Completed 200 OK in 95ms (Views: 92.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/thumb/missing.png" for 127.0.0.1 at 2017-07-21 01:15:39 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb/missing.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:16:00 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (1.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (120.6ms)
+Completed 200 OK in 129ms (Views: 123.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/admin/items/34/edit" for 127.0.0.1 at 2017-07-21 01:16:07 -0700
+Processing by Admin::ItemsController#edit as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.5ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Item Load (0.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb (115.2ms)
+Completed 200 OK in 130ms (Views: 123.9ms | ActiveRecord: 1.5ms)
+
+
+Started PATCH "/admin/items/34" for 127.0.0.1 at 2017-07-21 01:16:11 -0700
+Processing by Admin::ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wGlD83hVia2jzZ0KGYWatsIZykaBKJR8Zz1iPE+rSjhrMwyzHUA2bhfc4aKfNxVFyw02+e35XHW4D2xCgzA0Ug==", "item"=>{"name"=>"name fffffddd", "description"=>"rrrrrrrrrrrrrrrr", "oldprice"=>"", "newprice"=>"5", "publish"=>"0"}, "commit"=>"Update Item", "id"=>"34"}
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "items" SET "newprice" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["newprice", "5"], ["updated_at", "2017-07-21 08:16:11.463330"], ["id", 34]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items/34
+Completed 302 Found in 24ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/admin/items/34" for 127.0.0.1 at 2017-07-21 01:16:11 -0700
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb (85.3ms)
+Completed 200 OK in 92ms (Views: 87.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/thumb/missing.png" for 127.0.0.1 at 2017-07-21 01:16:11 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb/missing.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:16:14 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (156.8ms)
+Completed 200 OK in 170ms (Views: 162.7ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/admin/items/batch_action" for 127.0.0.1 at 2017-07-21 01:16:18 -0700
+Processing by Admin::ItemsController#batch_action as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z4TmTYHo7o+YW8ndjHK72Yf11IaMBytsthgDOBPV11hk3qkN5P1RTCxKtXUKwDQqjuEoOeDW42VpKg1G306pMg==", "batch_action"=>"publish", "collection_selection"=>["37", "34"]}
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (1.6ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."id" IN (37, 34)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "items" SET "publish" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["publish", "t"], ["updated_at", "2017-07-21 08:16:18.722309"], ["id", 37]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "items" SET "publish" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["publish", "t"], ["updated_at", "2017-07-21 08:16:18.725726"], ["id", 34]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items
+Completed 302 Found in 22ms (ActiveRecord: 5.5ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:16:18 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (143.8ms)
+Completed 200 OK in 150ms (Views: 145.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:18:26 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (200.1ms)
+Completed 200 OK in 252ms (Views: 201.2ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:18:28 -0700
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (124.6ms)
+Completed 200 OK in 133ms (Views: 127.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/admin/items" for 127.0.0.1 at 2017-07-21 01:18:30 -0700
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j54tqP5yAISjCbDjHFgs0EqVmOA03ryDISgmuKSIDNEkxGLom2e/RxcYzEua6qMjQ4FkX1gPdIr+GijGaBNyuw==", "item"=>{"name"=>"", "description"=>"", "oldprice"=>"d", "newprice"=>"", "publish"=>"0"}, "commit"=>"Create Item"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "oldprice", "newprice", "created_at", "updated_at", "publish") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", ""], ["description", ""], ["oldprice", "d"], ["newprice", ""], ["created_at", "2017-07-21 08:18:30.136017"], ["updated_at", "2017-07-21 08:18:30.136017"], ["publish", "f"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items/38
+Completed 302 Found in 22ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/admin/items/38" for 127.0.0.1 at 2017-07-21 01:18:30 -0700
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb (85.3ms)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `redirect_to' for #<ActiveAdmin::Views::Pages::Show:0x007f544bc8d470>):
+    1: insert_tag renderer_for(:show)
+  
+app/admin/item.rb:40:in `block (2 levels) in <top (required)>'
+Started GET "/admin/items/38" for 127.0.0.1 at 2017-07-21 01:18:49 -0700
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/show.html.arb (98.0ms)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `redirect_to' for #<ActiveAdmin::Views::Pages::Show:0x007f544a3edb68>):
+    1: insert_tag renderer_for(:show)
+  
+app/admin/item.rb:40:in `block (2 levels) in <top (required)>'
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:22:41 -0700
+  
+SyntaxError (/home/stas/Remont/app/admin/item.rb:75: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/admin/item.rb:75: syntax error, unexpected end-of-input, expecting keyword_end
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:25:36 -0700
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (90.7ms)
+Completed 200 OK in 142ms (Views: 93.0ms | ActiveRecord: 6.1ms)
+
+
+Started POST "/admin/items" for 127.0.0.1 at 2017-07-21 01:25:40 -0700
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xRmdy3Ozs85Burih4acGORFY/IwsNrj6aXr4Dcy7IJ5uQ9KLFqYMDfWrxAlnFYnKGEwAM0DncPO2SPZzACBe9A==", "item"=>{"name"=>"", "description"=>"", "oldprice"=>"rrrrr", "newprice"=>"", "publish"=>"0"}, "commit"=>"Create Item"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/admin/item.rb:15:in `create'
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:25:55 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (129.0ms)
+Completed 200 OK in 138ms (Views: 130.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/admin/items/36/edit" for 127.0.0.1 at 2017-07-21 01:25:57 -0700
+Processing by Admin::ItemsController#edit as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Item Load (0.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb (107.5ms)
+Completed 200 OK in 118ms (Views: 111.7ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/admin/items/36" for 127.0.0.1 at 2017-07-21 01:26:02 -0700
+Processing by Admin::ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B45E4OZCJ+gbtWC7TfQHKwdxG3rbzk70Z1udEbUiraSs1Augg1eYK6+kHBPLRojYDmXnxbcfhv24aZNvebnTzg==", "item"=>{"name"=>"rebth", "description"=>"erbt", "oldprice"=>"wrtgerbh", "newprice"=>"rebtrebtfffff7777777777777777", "publish"=>"1"}, "commit"=>"Update Item", "id"=>"36"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/admin/item.rb:9:in `update'
+Started GET "/admin/items/36/edit" for 127.0.0.1 at 2017-07-21 01:27:29 -0700
+Processing by Admin::ItemsController#edit as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mAdminUser Load (1.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Item Load (0.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb (108.6ms)
+Completed 200 OK in 159ms (Views: 113.8ms | ActiveRecord: 9.1ms)
+
+
+Started PATCH "/admin/items/36" for 127.0.0.1 at 2017-07-21 01:27:33 -0700
+Processing by Admin::ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dud374OPgfQqnn1UM5q4Su4wyP3Q3zxwkwgQ6Zk0vbOlvTiv5po+N56PAfy1KDe55yQ0QrwO9HlMOh6XVa/D2Q==", "item"=>{"name"=>"rebth", "description"=>"erbt", "oldprice"=>"wrtgerbh", "newprice"=>"rebtrebt777777777777777", "publish"=>"1"}, "commit"=>"Update Item", "id"=>"36"}
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/admin/item.rb:9:in `format'
+app/admin/item.rb:9:in `update'
+Started GET "/admin/items/36/edit" for 127.0.0.1 at 2017-07-21 01:28:24 -0700
+Processing by Admin::ItemsController#edit as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Item Load (0.0ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/edit.html.arb (110.0ms)
+Completed 200 OK in 146ms (Views: 112.7ms | ActiveRecord: 4.7ms)
+
+
+Started PATCH "/admin/items/36" for 127.0.0.1 at 2017-07-21 01:28:28 -0700
+Processing by Admin::ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yz6zgQiKNKTlesEpmCcdYtTUGLM48W892ZEy416ENFlgZPzBbZ+LZ1FrvYEelZKR3cDkDFQgpzQGozydkh9KMw==", "item"=>{"name"=>"rebth77777777777", "description"=>"erbt", "oldprice"=>"wrtgerbh", "newprice"=>"rebtrebt", "publish"=>"1"}, "commit"=>"Update Item", "id"=>"36"}
+  [1m[36mAdminUser Load (1.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "items" SET "name" = $1, "updated_at" = $2 WHERE "items"."id" = $3[0m  [["name", "rebth77777777777"], ["updated_at", "2017-07-21 08:28:28.227240"], ["id", 36]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items
+Completed 302 Found in 16ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:28:28 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (137.7ms)
+Completed 200 OK in 142ms (Views: 137.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:28:34 -0700
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (116.8ms)
+Completed 200 OK in 133ms (Views: 123.0ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/admin/items" for 127.0.0.1 at 2017-07-21 01:28:38 -0700
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XzmtSYGNXEFnn7x/dviyXCyegMbGyehWh4INQtBIsJ30Y+IJ5JjjgtOOwNfwSj2vJYp8eaoYIF9YsAM8HNPO9w==", "item"=>{"name"=>"000000000000000000", "description"=>"", "oldprice"=>"", "newprice"=>"", "publish"=>"0"}, "commit"=>"Create Item"}
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (16.5ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "oldprice", "newprice", "created_at", "updated_at", "publish") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "000000000000000000"], ["description", ""], ["oldprice", ""], ["newprice", ""], ["created_at", "2017-07-21 08:28:38.812083"], ["updated_at", "2017-07-21 08:28:38.812083"], ["publish", "f"]]
+  [1m[35m (10.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items
+Completed 302 Found in 39ms (ActiveRecord: 28.0ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:28:38 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (1.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (117.9ms)
+Completed 200 OK in 127ms (Views: 120.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/admin/items/new" for 127.0.0.1 at 2017-07-21 01:28:49 -0700
+Processing by Admin::ItemsController#new as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/new.html.arb (125.8ms)
+Completed 200 OK in 137ms (Views: 131.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/admin/items" for 127.0.0.1 at 2017-07-21 01:28:53 -0700
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"coJFA9oSvNsUELvZ42pGh+81g2owll/R76oER/zSV/fZ2ApDvwcDGKABx3Fl2Ml05iF/1VxHl9gwmAo5MEkpnQ==", "item"=>{"name"=>"", "description"=>"", "oldprice"=>"", "newprice"=>"h", "publish"=>"0"}, "commit"=>"Create Item"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "oldprice", "newprice", "created_at", "updated_at", "publish") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", ""], ["description", ""], ["oldprice", ""], ["newprice", "h"], ["created_at", "2017-07-21 08:28:53.305524"], ["updated_at", "2017-07-21 08:28:53.305524"], ["publish", "f"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/items
+Completed 302 Found in 11ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2017-07-21 01:28:53 -0700
+Processing by Admin::ItemsController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "items" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/stas/.rvm/gems/ruby-2.4.1@rmt/bundler/gems/activeadmin-fb5c424b382e/app/views/active_admin/resource/index.html.arb (133.2ms)
+Completed 200 OK in 140ms (Views: 136.0ms | ActiveRecord: 1.5ms)
+
+

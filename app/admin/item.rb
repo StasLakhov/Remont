@@ -3,6 +3,21 @@ ActiveAdmin.register Item do
 
   permit_params :name, :description, :oldprice, :newprice, :image, :publish
 
+
+  controller do
+    def update
+      update! do |format|
+        format.html { redirect_to '/admin/items' } if resource.valid?
+      end
+    end
+
+    def create
+      create! do |format|
+        format.html { redirect_to '/admin/items' } if resource.valid?
+      end
+    end
+  end
+
   form do |f|
     f.inputs do
       f.input :name
