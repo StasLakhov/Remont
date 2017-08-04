@@ -1,7 +1,7 @@
 class RmtMailer < ApplicationMailer
 
   default from: 'doctorbyron05@gmail.com',
-            to: 'alexander.khil@devrecords.com'
+            to: 'stanislav.lakhovytch@gmail.com'
 
   def item_order(user_mail, user_name, user_phone, item)
 
@@ -11,7 +11,7 @@ class RmtMailer < ApplicationMailer
     @item = item
 
 
-    mail(to: 'alexander.khil@devrecords.com', subject: 'Welcome to My Awesome Site')
+    mail(to: 'alexander.khil@devrecords.com', subject: 'Нове Замовлення')
   end
 
 end

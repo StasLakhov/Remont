@@ -1,0 +1,27 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "magnific-popup";
+@import "animate";
+@import "style";
+@import "responsive";
+
+
+$header-height: 65px;
+
+.header {
+    height: $header-height;
+    padding: 5px 15px;
+    background: #000000;
+    font-size: 24px;
+    color: #f6a827;
+
+  img {
+      max-height: 100%;
+  }
+}
+
+.bs-example{
+  margin: 20px;
+}

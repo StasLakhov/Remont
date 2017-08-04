@@ -1,0 +1,144 @@
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 2299px) {
+	.mobile-header {
+		display: none;
+	}
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (max-width: 991px) {
+	.mobile-header {
+		display: none;
+	}
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+	.mobile {
+		background-color: #fcdb00;
+	}
+	.mobile-header {
+		display: block;
+		padding: 50px 50px;
+	}
+	.mobile-header h1 {
+		font-weight: 700;
+		padding-bottom: 15px;
+	}
+	.mobile-responsive p {
+		color: rgb(85, 85, 85);
+		font-size: 16px;
+	}
+	.carousel {
+		display: none;
+	}
+	.features {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.features-content {
+		margin-bottom: 10px;
+	}
+	.row-first {
+		margin-bottom: 0;
+	}
+
+	.footer {
+		padding-bottom: 30px;
+		padding-top: 10px;
+	}
+	.footer-heading-content p {
+		font-size: 14px;
+		color: rgb(137, 137, 137);
+		margin-bottom: 0
+	}
+	.contact-form {
+		display: none;
+	}
+	.social-icons {
+		margin-top: 30px;
+	}
+	.footer-txt {
+		margin-top: 70px
+	}
+	.wow {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.form-group {
+		width: 300px;
+		height: 50px;
+		position: absolute;
+		left: 50%;
+		margin-left: -180px;
+	}
+	.form-control {
+		width: 250px !important;
+	}
+	.btn-default {
+		width: 80px;
+		margin-left: 450px;
+	}
+}
+
+
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+	.footer-heading-content h1 {
+		font-size: 20px;
+	}
+	.heading-content {
+		margin-bottom: 25px;
+	}
+	.heading-content p {
+		font-weight: 400;
+	}
+	.footer-txt {
+		margin-top: 40px;
+		font-size: 12px;
+	}
+	.scrollup {
+		display: none !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.features {
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
+	.heading-content h2 {
+		font-weight: 700;
+		margin-bottom: 25px;
+		font-size: 32px;
+		line-height: 1;
+	}
+	.heading-content p {
+		font-size: 20px;
+		color: rgb(49, 56, 65);
+		line-height: 1.2;
+		font-weight: bold;
+	}
+}
