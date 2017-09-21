@@ -1,144 +1,124 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
 /* Portrait tablets and medium desktops */
-
-@media (min-width: 992px) and (max-width: 2299px) {
-	.mobile-header {
-		display: none;
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+	.home-content h1 {
+    font-size: 48px;
 	}
-}
+	.home-content p {
+    font-size: 21px;
+	}
+	.portfolio-wrapper2 .portfolio-item.width-img {
+    height: 198px;
+	}
+    
 
+}
 
 /* Portrait tablets and small desktops */
-
-@media (max-width: 991px) {
-	.mobile-header {
-		display: none;
+@media  (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+	.about-content h4 {
+    font-size: 14px;
 	}
+	
+	.contact-area {
+    padding: 60px 40px 124px 40px;
+	}
+
 }
-
-
 /* Landscape phones and portrait tablets */
-
 @media (max-width: 767px) {
-	.mobile {
-		background-color: #fcdb00;
+    html {
+        font-size: 70%;
+    }
+	.home-content h1 {
+    font-size: 46px;
 	}
-	.mobile-header {
-		display: block;
-		padding: 50px 50px;
+	.home-content p {
+    font-size: 20px;
 	}
-	.mobile-header h1 {
-		font-weight: 700;
-		padding-bottom: 15px;
+	.about-content a {
+    margin-bottom: 20px;
 	}
-	.mobile-responsive p {
-		color: rgb(85, 85, 85);
-		font-size: 16px;
+	.experience-content {
+    margin-bottom: 20px;
 	}
-	.carousel {
-		display: none;
+	
+	.contact-area {
+    margin-bottom: 20px;
 	}
-	.features {
-		padding-top: 50px;
-		padding-bottom: 50px;
+	.features-bg {
+    margin: 0 auto;
+    margin-bottom: 20px;
 	}
-	.features-content {
-		margin-bottom: 10px;
-	}
-	.row-first {
-		margin-bottom: 0;
-	}
-
-	.footer {
-		padding-bottom: 30px;
-		padding-top: 10px;
-	}
-	.footer-heading-content p {
-		font-size: 14px;
-		color: rgb(137, 137, 137);
-		margin-bottom: 0
-	}
-	.contact-form {
-		display: none;
-	}
-	.social-icons {
-		margin-top: 30px;
-	}
-	.footer-txt {
-		margin-top: 70px
-	}
-	.wow {
-		/*CSS transitions*/
-		-o-transition-property: none !important;
-		-moz-transition-property: none !important;
-		-ms-transition-property: none !important;
-		-webkit-transition-property: none !important;
-		transition-property: none !important;
-		/*CSS transforms*/
-		-o-transform: none !important;
-		-moz-transform: none !important;
-		-ms-transform: none !important;
-		-webkit-transform: none !important;
-		transform: none !important;
-		/*CSS animations*/
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	.form-group {
-		width: 300px;
-		height: 50px;
-		position: absolute;
-		left: 50%;
-		margin-left: -180px;
-	}
-	.form-control {
-		width: 250px !important;
-	}
-	.btn-default {
-		width: 80px;
-		margin-left: 450px;
-	}
+	
+   
 }
+
 
 
 /* Landscape phones and smaller */
-
 @media (max-width: 480px) {
-	.footer-heading-content h1 {
-		font-size: 20px;
+    html {
+        font-size: 60%;
+    }
+	.home-content h1 {
+    font-size: 18px;
 	}
-	.heading-content {
-		margin-bottom: 25px;
+	.home-content p {
+    font-size: 12px;
 	}
-	.heading-content p {
-		font-weight: 400;
+	.heading-content h3 {
+    font-size: 20px;
 	}
-	.footer-txt {
-		margin-top: 40px;
-		font-size: 12px;
+	.experience-content h4 {
+    font-size: 18px;
 	}
-	.scrollup {
-		display: none !important;
+   .experience-content .content-details h5 {
+    font-size: 15px;
 	}
+	.testimonial-content .testimonial-quote p {
+    font-size: 12px;
+	}
+	.contact-wrapper h4 {
+    font-size: 18px;
+	}
+	.cd-header {
+    top: 3%;
+	}
+
 }
+
+
 
 @media (max-width: 320px) {
-	.features {
-		padding-top: 25px;
-		padding-bottom: 20px;
+
+
+    html {
+        font-size: 50%;
+    }
+	.home-content p {
+    font-size: 11px;
 	}
-	.heading-content h2 {
-		font-weight: 700;
-		margin-bottom: 25px;
-		font-size: 32px;
-		line-height: 1;
+	.cd-header {
+    top: 3%;
 	}
-	.heading-content p {
-		font-size: 20px;
-		color: rgb(49, 56, 65);
-		line-height: 1.2;
-		font-weight: bold;
+	.overlay {
+    min-height: 500px;
+	}
+	.home-wrapper {
+    margin-top: 115px;
 	}
 }
+
