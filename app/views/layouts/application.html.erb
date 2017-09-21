@@ -10,24 +10,23 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-  <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.min.scss">
   <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
 
   <!--For Plugins external css-->
-  <link rel="stylesheet" href="assets/stylesheets/plugins.css" />
-  <link rel="stylesheet" href="assets/stylesheets/roboto-railway-webfont.css" />
-  <link rel="stylesheet" href="assets/stylesheets/linearicons-web-font.css" />
-  <link rel="stylesheet" href="assets/stylesheets/magnific-popup.css">
+
 
   <!--Theme custom css -->
-  <link rel="stylesheet" href="assets/stylesheets/style.css">
+  <link rel="stylesheet" href="style.scss">
 
   <!--Theme Responsive css-->
-  <link rel="stylesheet" href="assets/stylesheets/responsive.css" />
+  <link rel="stylesheet" href="responsive.scss" />
 
-  <script src="assets/javascripts/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -57,7 +56,7 @@
         <div class="div-menu">
           <header class="cd-header">
             <div id="cd-logo">
-              <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+              <a href="index.html"><img src="/assets/logo.png" alt="Logo"></a>
             </div>
             <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
           </header>
@@ -86,7 +85,7 @@
 
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="about-photo">
-            <img src="assets/images/man.png" alt="About Photo" />
+            <img src="man.png" alt="About Photo" />
           </div>
         </div>
 
@@ -108,7 +107,7 @@
 <section id="features" class="sections lightbg">
 
   <div class="heading-content text-center">
-    <h3>My Working Process</h1>
+    <h3>My Working Process</h3>
       <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
   </div>
 
@@ -233,25 +232,25 @@
       <div class="portfolio-wrapper">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="portfolio-item">
-            <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
+            <a href="/portfolio/pf1.jpg" class="portfolio-img"><img src="/portfolio/pf1.jpg" alt="" /></a>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="portfolio-item">
-            <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
+            <a href="/portfolio/pf2.jpg" class="portfolio-img"><img src="/portfolio/pf2.jpg" alt="" /></a>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="portfolio-item">
-            <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
+            <a href="/portfolio/pf3.jpg" class="portfolio-img"><img src="/portfolio/pf3.jpg" alt="" /></a>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="portfolio-item">
-            <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
+            <a href="/portfolio/pf4.jpg" class="portfolio-img"><img src="/portfolio/pf4.jpg" alt="" /></a>
           </div>
         </div>
 
@@ -263,19 +262,19 @@
       <div class="portfolio-wrapper2">
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="portfolio-item width-img">
-            <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
+            <a href="/portfolio/pf1.jpg" class="portfolio-img"><img src="/portfolio/pf1.jpg" alt="" /></a>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="portfolio-item">
-            <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
+            <a href="/portfolio/pf2.jpg" class="portfolio-img"><img src="/portfolio/pf2.jpg" alt="" /></a>
           </div>
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="portfolio-item">
-            <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
+            <a href="portfolio/pf3.jpg" class="portfolio-img"><img src="/portfolio/pf3.jpg" alt="" /></a>
           </div>
         </div>
 
@@ -415,16 +414,6 @@
 </footer>
 
 
-<script src="assets/javascripts/vendor/jquery-1.11.2.min.js"></script>
-<script src="assets/javascripts/vendor/bootstrap.min.js"></script>
-
-<script src="assets/javascripts/plugins.js"></script>
-<script src="assets/javascripts/jquery.magnific-popup.js"></script>
-<script src="assets/javascripts/modernizr.js"></script>
-
-<script src="assets/javascripts/main.js"></script>
-
-<%= yield %>
 
 </body>
 </html>
